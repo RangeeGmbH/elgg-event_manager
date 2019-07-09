@@ -92,7 +92,7 @@ return array (
 	'event_manager:edit:form:type' => 'Art',
 	'event_manager:edit:form:location' => 'Ort',
 	'event_manager:edit:form:users:or' => 'oder',
-	'event_manager:edit:form:users:add' => 'f&uml;ge Teilnehmer hinzu',
+	'event_manager:edit:form:users:add' => 'f&uuml;ge Teilnehmer hinzu',
 	'event_manager:edit:form:organizer_guids' => 'W&auml;hle Organisatoren',
 	'event_manager:edit:form:contact_guids' => 'Wähle Kontaktpersonen',
 	'event_manager:event:edit:maps_address' => 'Adresse',
