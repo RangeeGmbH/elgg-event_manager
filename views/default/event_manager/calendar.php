@@ -38,7 +38,7 @@ foreach ($events['entities'] as $event) {
 	
 	$start = $event->getStartDate();
 	$end = $event->getEndDate('c');
-	
+
 	$all_day = $event->isMultiDayEvent();
 	if ($all_day) {
 		// needed for fullcalendar behaviour of allday events
@@ -46,7 +46,7 @@ foreach ($events['entities'] as $event) {
 	}
 	
 	$event_result = [
-		'title' => $event->title,
+		'title' => html_entity_decode($event->title),
 		'start' => $start,
 		'end' => $end,
 		'allDay' => $all_day,

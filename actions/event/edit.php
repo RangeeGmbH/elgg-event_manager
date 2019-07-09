@@ -3,7 +3,7 @@
 // start a new sticky form session in case of failure
 elgg_make_sticky_form('event');
 
-$title = get_input('title');
+$title = htmlspecialchars(get_input('title', '', false));
 
 $event_start = (int) get_input('event_start');
 $start_time_hours = (int) get_input('start_time_hours');
